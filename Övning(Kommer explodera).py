@@ -1,25 +1,14 @@
+import random
 
+korrekt = False
 
+hemligtnummer = random.randint(1, 2)
 
-
-
-
-
-
-
-
-Tal1 = int(input("Ange en heltal snälla. "))
-
-for x in range(Tal1):
-    print(x)
-    
-
-
-nummer1 = int(input("En heltal tack! "))
-nummer2 = 0
-while nummer2 < nummer1:
-    print(nummer2)
-    nummer2 +=1 
-print(nummer1)
-
+while korrekt == False:
+    nummergissning = int(input("Skriv ett nummer: "))
+    if nummergissning == hemligtnummer:
+        print("Du hade rätt!")
+        korrekt = True
+    else:
+        print("Fel.")
 
