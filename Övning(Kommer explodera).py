@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+
+
 Tal1 = int(input("Ange en heltal snälla. "))
 
 for x in range(Tal1):
@@ -11,3 +21,5 @@ while nummer2 < nummer1:
     print(nummer2)
     nummer2 +=1 
 print(nummer1)
+
+
